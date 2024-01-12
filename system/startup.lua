@@ -17,12 +17,12 @@ end
 
 -- Function to run the update script
 local function runUpdateScript()
-    shell.run(fs.combine(INSTALL_PATH, "system/update.lua"))
+    shell.run(fs.combine(INSTALL_PATH, "/PCOS/system/update.lua"))
 end
 
 -- Function to run the login script
 local function runLoginScript()
-    shell.run(fs.combine(INSTALL_PATH, "system/login.lua"))
+    shell.run(fs.combine(INSTALL_PATH, "/PCOS/system/login.lua"))
 end
 
 -- Draw the PCOS logo
